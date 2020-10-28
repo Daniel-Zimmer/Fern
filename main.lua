@@ -1,12 +1,12 @@
-WIDTH = 1150
-HEIGHT = 700
+WIDTH = 1200
+HEIGHT = 800
 
 pixels = {{0, 0}}
 
 stepsPerFrame = 500
 
 function love.load()
-  success = love.window.setMode(WIDTH, HEIGHT, {borderless = true})
+  success = love.window.setMode(WIDTH, HEIGHT, {borderless = false})
 end
 
 function love.update(dt)
